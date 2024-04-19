@@ -18,7 +18,7 @@ Class SimpleForm{
     //Methods
 
     function add(){
-        $sql = "INSERT INTO SimpleForm (name, age) VALUES (:name, :age);";
+        $sql = "INSERT INTO profile (name, age) VALUES (:name, :age);";
 
         $query=$this->db->connect()->prepare($sql);
         $query->bindParam(':name', $this->name);
