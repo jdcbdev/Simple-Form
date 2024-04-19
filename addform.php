@@ -35,7 +35,7 @@
                     <input type="text" name="name" id="name" required>
                 </div>
                 <div class="form-group">
-                    <label for="age">Age</label>
+                    <label for="age">Age:</label>
                     <input type="number" name="age" id="age" required>
                 </div>
                 <div class="form-group">
